@@ -1,0 +1,147 @@
+.header-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 20px 40px;
+  background-color: #141024;
+  color: white;
+  font-family: "Jost", sans-serif;
+}
+
+.header-name {
+  color: #ffffff;
+  font-family: Jost;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  margin-left: 50px;
+}
+
+.header-nav {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  width: 324;
+  height: 32;
+  top: 38px;
+  left: 798px;
+}
+
+.header-link-list {
+  display: flex;
+  gap: 40px;
+  color: #ffffff;
+  list-style-type: none;
+}
+
+.header-link-item {
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.header-link-link {
+  text-decoration: none;
+  color: #ffffff;
+  position: relative;
+  cursor: pointer;
+}
+
+.header-link-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: #ffffff;
+  transition: width 0.3s ease-in-out;
+}
+
+.header-link-link:hover::after {
+  width: 100%;
+}
+
+.header-number {
+  font-family: Jost;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: right;
+  color: #ffffff;
+  margin-right: 50px;
+}
+
+@media (max-width: 1024px) {
+  .header-title {
+    padding: 20px;
+  }
+
+  .header-name {
+    font-size: 24px;
+  }
+
+  .header-link-item {
+    font-size: 16px;
+  }
+
+  .header-number {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-title {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-name {
+    margin-left: 0;
+  }
+
+  .header-nav {
+    margin-top: 20px;
+  }
+
+  .header-link-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-link-item {
+    margin-bottom: 10px;
+  }
+
+  .header-number {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-title {
+    padding: 10px;
+  }
+
+  .header-name {
+    font-size: 24px;
+  }
+
+  .header-nav {
+    margin-top: 10px;
+  }
+
+  .header-link-item {
+    font-size: 16px;
+  }
+
+  .header-number {
+    font-size: 24px;
+  }
+}

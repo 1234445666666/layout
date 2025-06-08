@@ -1,0 +1,74 @@
+.about-main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.about-main-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  margin-left: 100px;
+  max-height: 100vh;
+  width: 891px;
+  height: 144px;
+  top: 1200px;
+  left: 380px;
+}
+
+.about-main-title {
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+
+.about-main-title-span {
+  font-family: Jost;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+
+.about-main-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  box-sizing: border-box;
+  margin-left: 100px;
+  gap: 10px;
+}
+
+.about-main-card-number {
+  font-family: Jost;
+  font-weight: 600;
+  font-size: 70px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #d52027;
+}
+
+.about-main-card-text {
+  width: 260px;
+  height: 58px;
+  top: 1516px;
+  left: 380px;
+
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #141024b2;
+}

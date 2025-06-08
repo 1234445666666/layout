@@ -5,6 +5,8 @@
   height: 100%;
   margin-top: 100px;
   margin-bottom: 100px;
+  max-height: 100vh;
+  box-sizing: border-box;
 }
 
 .content-one {

@@ -21,7 +21,7 @@ export default function AboutMain() {
     },
   ];
   return (
-    <div className="about-main">
+    <section className="about-main">
       <div className="about-main-text">
         <p className="about-main-title">
           <span className="about-main-title-span">Robo School </span> –
@@ -29,7 +29,7 @@ export default function AboutMain() {
           робототехники и программирования
         </p>
       </div>
-
+      
       <div className="about-main-cards">
         {aboutMain.map((item, index) => (
           <div className="about-main-card" key={index}>
@@ -38,6 +38,6 @@ export default function AboutMain() {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }

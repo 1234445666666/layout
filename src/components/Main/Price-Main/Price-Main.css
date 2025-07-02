@@ -1,0 +1,111 @@
+.price-main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.price-main-title {
+  margin-left: 17%;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #141024;
+}
+
+.price-main-cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 20px;
+  flex-wrap: nowrap;
+  margin-left: 10%;
+}
+
+.price-main-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 360px;
+  height: 500px;
+  top: 3445px;
+  left: 380px;
+  border-radius: 20px;
+  border: 1px solid #14102433;
+}
+
+.price-main-card:first-child {
+  background-color: #141024;
+  color: #ffffff;
+  display: flex;
+  width: 360px;
+  height: 500px;
+  top: 3445px;
+  left: 380px;
+  border-radius: 20px;
+}
+
+.price-main-card-title {
+  margin-top: 40px;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+
+.price-main-card-price {
+  margin-top: 30px;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+
+.price-main-card-text {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: "Jost", sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+
+.price-main-card-button {
+  margin-bottom: 40px;
+  border: none;
+  background-color: #d52027;
+  color: #ffffff;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  width: 280px;
+  height: 79px;
+  top: 3826px;
+  left: 420px;
+  border-radius: 5px;
+  padding-top: 25px;
+  padding-right: 54px;
+  padding-bottom: 25px;
+  padding-left: 54px;
+  gap: 10px;
+}
+
+.price-main-card-button:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #d52027;
+  border: 1px solid #d52027;
+  border-radius: 5px;
+  padding-top: 25px;
+  padding-right: 54px;
+  padding-bottom: 25px;
+  padding-left: 54px;
+  gap: 10px;
+}

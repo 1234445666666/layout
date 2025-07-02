@@ -5,13 +5,13 @@ export default function HeaderTitle() {
   const linkHeader = ["О школе", "Тренеры", "Стоимость"];
 
   return (
-    <div className="header-title">
+    <section className="header-title">
       <h1 className="header-name">ROBO.SCHOOL</h1>
 
       <nav className="header-nav">
         <ul className="header-link-list">
           {linkHeader.map((item, index) => (
-            <li className="header-link-item">
+            <li className="header-link-item" key={index}>
               <a href="#" className="header-link-link" key={index}>
                 {item}
               </a>
@@ -21,6 +21,6 @@ export default function HeaderTitle() {
       </nav>
 
       <h1 className="header-number">+7 800 000 11 22</h1>
-    </div>
+    </section>
   );
 }

@@ -5,9 +5,9 @@ import HeaderMain from "./Header-Main/Header-Main.jsx";
 
 export default function Header() {
   return (
-    <div className="Header">
+    <header className="header">
       <HeaderTitle />
       <HeaderMain />
-    </div>
+    </header>
   );
 }

@@ -14,11 +14,11 @@
   flex-direction: column;
   justify-content: center;
   margin-bottom: 200px;
-  margin-left: 100px;
+  margin-left: 17%;
 }
 
 .header-main-title {
-  font-family: Jost;
+  font-family: "Jost", sans-serif;
   font-weight: 600;
   font-size: 70px;
   line-height: 160%;
@@ -31,7 +31,7 @@
   height: 64px;
   top: 476px;
   left: 380px;
-  font-family: Jost;
+  font-family: "Jost", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 160%;
@@ -45,6 +45,7 @@
   top: 590px;
   left: 380px;
   border-radius: 5px;
+  margin-top: 25px;
   padding-top: 25px;
   padding-right: 54px;
   padding-bottom: 25px;
@@ -58,11 +59,15 @@
   letter-spacing: 0%;
   text-align: center;
   color: #ffffff;
+  border: none;
+  cursor: pointer;
 }
 
 .header-main-button:hover {
   background-color: #ffffff;
   color: #d52027;
+  border: 1px solid #d52027;
+  transition: all 0.1s ease-in-out;
 }
 
 .content-two {
@@ -74,7 +79,7 @@
   height: 783px;
   top: 262.63px;
   left: 924px;
-  border-width: 80px;
+  border: 80px;
   border-style: solid;
   border-radius: 50%;
   border-color: #ffffff;
@@ -83,8 +88,8 @@
 }
 
 .header-main-img {
-  width: 500px;
-  height: 1100px;
+  width: 600px;
+  height: 1080px;
   top: 162.52px;
   left: 924px;
   z-index: 2;

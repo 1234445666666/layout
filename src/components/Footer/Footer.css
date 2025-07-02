@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #141024;
+  height: 150px;
+}
+
+.footer-content {
+  margin-left: 5%;
+}
+
+.footer-title {
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffffffff;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+
+.footer-text {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffffb2;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+
+.footer-number {
+  color: #ffffff;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  margin-right: 5%;
+}

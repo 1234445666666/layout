@@ -1,4 +1,4 @@
-.Header {
+.header {
   background-color: #141024;
   height: 1250px;
   width: 100vw;
@@ -6,19 +6,19 @@
 }
 
 @media (max-width: 1440px) {
-  .Header {
+  .header {
     height: 1089px;
   }
 }
 
 @media (max-width: 1024px) {
-  .Header {
+  .header {
     height: 1000px;
   }
 }
 
 @media (max-width: 768px) {
-  .Header {
+  .header {
     height: 600px;
   }
 }

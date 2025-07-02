@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   padding: 20px 40px;
   background-color: #141024;
   color: white;
@@ -37,7 +36,7 @@
 }
 
 .header-link-item {
-  font-family: Jost;
+  font-family: 'Jost' , sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 160%;
@@ -46,6 +45,12 @@
 }
 
 .header-link-link {
+  font-family: 'Jost' , sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  text-align: center;
   text-decoration: none;
   color: #ffffff;
   position: relative;
@@ -68,7 +73,7 @@
 }
 
 .header-number {
-  font-family: Jost;
+  font-family: 'Jost' , sans-serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 160%;

@@ -1,56 +1,86 @@
 .information-main {
   background-color: #f9f9f9;
-  width: 1920px;
+  width: 100%;
   height: 485px;
   top: 1694px;
   left: -1px;
 }
 
-.information-main-text {
-}
-
 .information-main-title {
-  font-family: Jost;
+  font-family: 'Jost' , sans-serif;
   font-weight: 600;
   font-size: 50px;
   line-height: 160%;
   letter-spacing: 0%;
-  margin-left: 100px;
+  margin-left: 17%;
+  color: #141024;
 }
 
 .information-main-cards {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   align-items: center;
   margin-top: 100px;
   margin-bottom: 100px;
   box-sizing: border-box;
   margin-left: 100px;
-  gap: 10px;
+  gap: 110px;
 }
 
 .information-main-card-title {
-    font-family: Jost;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 160%;
-    letter-spacing: 0%;
-    color:#141024;
-    
+  font-family: 'Jost' , sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #141024;
 }
 
-.about-main-card-text {
-    font-family: Jost;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 160%;
-    letter-spacing: 0%;
-    color:#141024B2;
-    width: 360px;
-height: 87px;
-top: 1992px;
-left: 1180px;
+.information-main-card-span {
+  position: relative;
+  padding-left: 10px;
 }
 
-    
+.information-main-cards
+  .information-main-card:last-child
+  .information-main-card-span:hover::before {
+  content: "При наличии свободных мест";
+
+  position: absolute;
+  width: 251px;
+  height: 56px;
+  top: -70px;
+  left: -110px;
+
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(20, 16, 36, 0.1);
+  border-radius: 5px;
+
+  font-family: "Jost", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #141024;
+
+  padding: 15px 20px;
+  box-sizing: border-box;
+
+  white-space: nowrap;
+  z-index: 100;
+}
+
+.information-main-card-text {
+  font-family: 'Jost' , sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #141024b2;
+  width: 360px;
+  height: 87px;
+  top: 1992px;
+  left: 1180px;
+}

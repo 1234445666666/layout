@@ -33,20 +33,23 @@ export default function InformationMain() {
     },
   ];
   return (
-    <div className="information-main">
+    <section className="information-main">
       <div className="information-main-text">
         <h1 className="information-main-title">Что вы получите после курса</h1>
       </div>
 
       <div className="information-main-cards">
         {cards.map((item, index) => (
-          <div className="information-main-card" key={index}>
-            <h2 className="information-main-card-title">{item.title}</h2>
-            <span className="information-main-card-span">{item.span}</span>
+          <div className="information-main-card" key={"card-" + index}>
+            <h2 className="information-main-card-title">
+              {item.title}
+              <span className="information-main-card-span">{item.span}</span>
+            </h2>
+
             <p className="information-main-card-text">{item.text}</p>
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }

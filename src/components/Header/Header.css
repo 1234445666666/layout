@@ -7,18 +7,21 @@
 
 @media (max-width: 1440px) {
   .header {
-    height: 1089px;
+    height: auto;
+    width: 100vw;
   }
 }
 
 @media (max-width: 1024px) {
   .header {
-    height: 1000px;
+    height: auto;
+    width: 100vw;
   }
 }
 
 @media (max-width: 768px) {
   .header {
-    height: 600px;
+    height: auto;
+    width: 100vw;
   }
 }

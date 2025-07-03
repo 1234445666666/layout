@@ -36,7 +36,7 @@
 }
 
 .header-link-item {
-  font-family: 'Jost' , sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 160%;
@@ -45,7 +45,7 @@
 }
 
 .header-link-link {
-  font-family: 'Jost' , sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 160%;
@@ -73,7 +73,7 @@
 }
 
 .header-number {
-  font-family: 'Jost' , sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 600;
   font-size: 30px;
   line-height: 160%;
@@ -122,6 +122,42 @@
 
   .header-link-item {
     margin-bottom: 10px;
+  }
+  .header-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #141024;
+    color: white;
+    font-family: "Jost", sans-serif;
+  }
+
+  @media (max-width: 1440px) {
+    .header-title {
+      padding: 20px 30px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .header-title {
+      padding: 15px 20px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .header-title {
+      flex-direction: column;
+      padding: 15px;
+      gap: 15px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .header-title {
+      padding: 10px;
+      gap: 10px;
+    }
   }
 
   .header-number {

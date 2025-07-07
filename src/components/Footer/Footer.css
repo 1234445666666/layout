@@ -1,0 +1,101 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #141024;
+  height: 150px;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.footer-content {
+  margin-left: 5%;
+}
+
+.footer-title {
+  font-family: "Jost", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffffffff;
+  line-height: 160%;
+  letter-spacing: 0%;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffffb2;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+
+.footer-number {
+  color: #ffffff;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  margin-right: 5%;
+  white-space: nowrap;
+}
+
+/* Адаптивные стили */
+@media (max-width: 1024px) {
+  .footer {
+    height: 130px;
+  }
+
+  .footer-title {
+    font-size: 26px;
+  }
+
+  .footer-number {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    height: auto;
+    padding: 30px 20px;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .footer-content {
+    margin-left: 0;
+    order: 1;
+  }
+
+  .footer-number {
+    margin-right: 0;
+    order: 2;
+  }
+
+  .footer-title {
+    margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 20px 15px;
+    gap: 15px;
+  }
+
+  .footer-title {
+    font-size: 22px;
+  }
+
+  .footer-text {
+    font-size: 14px;
+  }
+
+  .footer-number {
+    font-size: 22px;
+  }
+}

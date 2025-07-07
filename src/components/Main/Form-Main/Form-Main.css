@@ -1,0 +1,115 @@
+.form-main {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  background-color: #d52027;
+  height: 460px;
+  width: auto;
+}
+
+.form-main-content {
+  display: flex;
+  justify-content: baseline;
+  flex-direction: column;
+  align-content: flex-start;
+  margin-left: 17%;
+  margin-top: 5%;
+}
+
+.form-main-title {
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  width: 476px;
+}
+
+.form-main-text {
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  color: #ffffff;
+}
+
+.form-main-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 17%;
+  width: 500px;
+  height: 286px;
+  top: 4152px;
+  left: 980px;
+  border-radius: 5px;
+}
+
+.form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-main-input {
+  margin-bottom: 20px;
+  border: none;
+  background-color: #ffffff;
+  color: #141024;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  border-radius: 5px;
+  padding-top: 25px;
+  padding-right: 54px;
+  padding-bottom: 25px;
+  padding-left: 54px;
+  width: 400px;
+  height: 39px;
+}
+
+.form-main-input::placeholder {
+  color: #141024;
+  font-family: "Jost", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  letter-spacing: 0%;
+}
+
+.form-main-button {
+  border: none;
+  background-color: #141024;
+  color: #ffffff;
+  font-family: "Jost", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 160%;
+  letter-spacing: 0%;
+  border-radius: 5px;
+  padding-top: 25px;
+  padding-right: 54px;
+  padding-bottom: 25px;
+  padding-left: 54px;
+  text-align: center;
+  width: 508px;
+  height: 89px;
+}
+
+.form-main-button:hover {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #d52027;
+  border: 1px solid #d52027;
+  border-radius: 5px;
+  padding-top: 25px;
+  padding-right: 54px;
+  padding-bottom: 25px;
+  padding-left: 54px;
+  gap: 10px;
+}

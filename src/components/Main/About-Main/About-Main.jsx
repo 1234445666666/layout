@@ -1,25 +1,7 @@
 import React from "react";
 import "./About-Main.css";
-
+import { card } from "/src/components/Main/About-Main/About.js";
 export default function AboutMain() {
-  const aboutMain = [
-    {
-      number: 10,
-      text: "УМК по различным направлениям по робототехнике",
-    },
-    {
-      number: 20,
-      text: "Школ, в которых запущена робототехника",
-    },
-    {
-      number: 100,
-      text: "Педагогов прошедших курсы повышения квалификации",
-    },
-    {
-      number: "10 000",
-      text: "Обученных детей на базе собственных центров",
-    },
-  ];
   return (
     <section className="about-main">
       <div className="about-main-text">
@@ -29,10 +11,10 @@ export default function AboutMain() {
           робототехники и программирования
         </p>
       </div>
-      
+
       <div className="about-main-cards">
-        {aboutMain.map((item, index) => (
-          <div className="about-main-card" key={index}>
+        {card.map((item, index) => (
+          <div className="about-main-card" key={"card" + index}>
             <p className="about-main-card-number">{item.number}</p>
             <p className="about-main-card-text">{item.text}</p>
           </div>

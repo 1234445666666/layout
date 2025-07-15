@@ -9,7 +9,7 @@
 
 ### Установка
 ```bash
-git clone https://github.com/ваш-репозиторий/robo-school.git
+git clone https://github.com/1234445666666/robo-school
 cd robo-school
 npm install
 ```
